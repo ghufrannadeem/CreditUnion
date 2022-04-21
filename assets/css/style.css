@@ -1,0 +1,1214 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Montserrat:wght@200;300;400;600;700;800&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,600;1,800&family=Source+Sans+Pro:ital,wght@0,600;1,400;1,600;1,700&display=swap');
+
+body {font-family: 'Poppins', sans-serif;}
+h1,h2,h3,h4,h5,h6,p,a {font-family: 'Poppins', sans-serif;color: #fff;}
+h2 {font-size: 60px;font-weight: 700;color: #fff;}
+h3 {font-size: 40px;color: #000;font-weight: 700;}
+h4 {font-weight: 600;font-size: 30px;}
+h5 {font-weight: 600;font-size: 20px;color: #0066a4;}
+h6 {font-size: 20px;font-weight: 500;color: #000;}
+p {font-weight: 200;font-size: 20px;color: #000;}
+nav {padding: 0 29px;}
+.upper-discription {background-color: #ececec;}
+.upper-discription p {font-weight: 400;font-size: 14px;text-align: center;margin-bottom: 0;padding: 12px 0;color: #000;}
+.navbar-nav {display: flex;flex-direction: column;padding-left: 0;margin-bottom: 0;list-style: none;justify-content: center;align-items: center;margin: auto;}
+.center-nav li {padding: 0 15px;}
+.center-nav li a {font-weight: 500;font-size: 20px;cursor: pointer;}
+.center-nav li a:hover {color: #c0af02;}
+.navbar-light .navbar-nav .nav-link:hover {color: #c0af02;}
+.center-nav {padding: 30px 150px;}
+.right-nav li {list-style: none;margin-top: 29px;}
+.right-nav li a {text-decoration: none;color: #fff;background-color: #c0af02;padding: 14px 29px;font-weight: 500;font-size: 20px;cursor: pointer;transition: 0.5s;}
+.right-nav li a:hover {background-color: #0066a4;color: #fff;border-radius: 10px;}
+
+
+/* BANNER SECTION STYLING STARTS HERE */
+.banner {background: url(../images/banner-back.png) no-repeat center;background-size: cover;height: 695px;}
+.banner h1 {font-weight: 700;font-size: 70px;padding: 100px 20px 0 0;}
+.banner p {font-size: 21px;padding: 0px 64px 0 0;line-height: 30px;padding-bottom: 40px;color: #fff;}
+.banner a {text-decoration: none;background-color: #c0af02;padding: 14px 29px;font-weight: 500;font-size: 20px;color: #fff;transition: 0.5s;}
+.banner a:hover {background-color: #fff;color: #c0af02;border-radius: 10px;}
+
+/* ABOUT US SECTION STYLING STARTS HERE */
+.about-us {padding: 100px 0 30px 0;}
+.about-us p {padding-top: 30px;line-height: 24px;padding-right: 60px;}
+.about-us h6 {padding-top: 20px;padding-right: 20px;}
+.about-us-ul {display: flex;justify-content: flex-start;align-items: center;padding-left: 0;padding-top: 20px;}
+.about-us-ul li {list-style: none;}
+.about-us-ul li .active{transform: scale(1.5);}
+.about-us-ul .green, .red, .blue {height: 156px;width: 156px;border-radius: 50%;margin-right: 10px;text-align: center;color: #fff;}
+.about-us-ul .green {
+    background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(187,255,154) 0%, rgb(125,201,88) 100%);
+    background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(187,255,154) 0%, rgb(125,201,88) 100%);
+    background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(187,255,154) 0%, rgb(125,201,88) 100%);
+    padding: 30px 0 0 0;
+    font-size: 20px;
+}
+.about-us-ul .red {
+    background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(255,146,103) 0%, rgb(255,95,31) 100%);
+    background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(255,146,103) 0%, rgb(255,95,31) 100%);
+    background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(255,146,103) 0%, rgb(255,95,31) 100%);
+    padding: 30px 5px 0 5px;
+    font-size: 20px;
+}
+.about-us-ul .blue {
+    background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(4,86,156) 0%, rgb(0,55,103) 100%);
+    background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(4,86,156) 0%, rgb(0,55,103) 100%);
+    background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(4,86,156) 0%, rgb(0,55,103) 100%);
+    padding: 33px 15px 0 15px;
+    font-size: 20px;
+}
+.about-us-ul li span {font-size: 40px;font-weight: 500;padding: 0 15px;}
+.about-us .circle-img {position: relative;}
+.about-us .circle-img::before {position: absolute;content: '';background: url(../images/Ellipse1.png) no-repeat;height: 220px;width: 220px;right: 0;top: 184px;}
+.about-us a {color: #267cb1;text-decoration: none;text-align: center;display: flex;justify-content: center;align-items: center;}
+.about-us a {font-weight: 600;}
+
+/* BUSINESS SECTION STYLING STARTS HERE */
+.business {background: url(../images/business.png) no-repeat center;height: 510px;background-size: cover;}
+.business h2 {padding-top: 165px;}
+.business-slider {width: 491px;height: 505px;background: #c0af02;}
+.sld {padding: 120px 50px;text-align: center;}
+.business h4 {line-height: 48px;font-style: italic;}
+.slick-dots li.slick-active button:before {opacity: .75;color: #267cb1;}
+.slick-dots li button:before {font-family: 'slick';font-size: 10px;line-height: 20px;position: absolute;top: 0;left: 0;width: 20px;height: 20px;content: '•';text-align: center;opacity: .25;color: white;opacity: 1;}
+.slick-next {display: none !important;}
+.slick-prev {display: none !important;}
+
+/* SERVICES SECTION STYLING STARTS HERE */
+
+.services {padding: 100px 0;}
+.services-row {display: flex;justify-content: center;align-items: center;}
+.services h3 {text-align: center;padding-bottom: 60px;}
+.card {width: 358px;height: 490px;background: #f1f7fb;border: none;padding: 60px 15px 30px 15px;transition: 0.5s;}
+.card:hover {background: #fbf8da;}
+.services .card h4 {color: #000;font-weight: 500;font-size: 25px;text-align: center;}
+.services .card p {text-align: center;padding-top: 40px;}
+.services .card a {color: #267cb1;text-decoration: none;text-align: center;padding-top: 50px;}
+.services .card a:hover {font-weight: 500;}
+/* REPORTS SECTION STAYLING STARTS HERE */
+
+.reports {background: url(../images/sample-back.png) no-repeat center;height: 500px;background-size: cover;}
+div#v-pills-tab {height: 482px;width: 795px;background: #c0af02;padding: 10px;text-align: center;}
+.nav-link {display: block;padding: 1.rem 1.5rem;color: #0d6efd;text-decoration: none;transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;justify-content: center;align-items: center;padding: 17px 129px;margin-bottom: 10px;}
+.reports h4 {padding: 70px 0;font-size: 23px;margin-bottom: 70px;}
+.reports h3 {margin-top: 167px;color: #fff;padding-left: 40px;}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {color: #fff;background-color: #d1bf05;padding: 17px 28px;font-size: 20px;}
+.nav-pills .nav-link {background: 0 0;border: 0;border-radius: .25rem;background: #ad9e04;color: #fff;}
+.nav-link {padding: 17px 28px;font-size: 20px;}
+
+
+/* MIKE SACHER SECTION STARTS HERE */
+.mike-sacher {padding: 30px 0;}
+.mike-sacher h6 {color: #c0af02;padding: 10px 0;}
+.mike-sacher h5 {padding-bottom: 20px;}
+.mike-sacher p {padding-right: 40px;line-height: 26px;}
+.mike-sacher a {color: #267cb1;text-decoration: none;padding-top: 40px;}
+.mike-sacher a:hover {font-weight: 500;}
+
+/* NAVIGATION SECTION STARTS HERE */
+.navigation {background: url(../images/icons-back.png) no-repeat center;height: 207px;background-size: cover;}
+.navigation ul {display: flex;justify-content: center;align-items: center;flex-wrap: wrap;padding-left: 0;}
+
+.navigation ul .circle {list-style: none;padding: 50px 0px;position: relative;}
+
+.navigation ul .circle::before {
+    position: absolute;
+    content: '';
+    background: #e8f1f729;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    bottom: -50px;
+    left: -26px;
+}
+.navigation ul .circle i {
+    position: absolute;
+    content: '';
+    color: #fff;
+    font-size: 30px;
+    background: #c0af02;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 13px;
+    left: -10px;
+    bottom: -35px;
+    z-index: 5;
+}
+.navigation .text {
+    width: 65%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -37px;
+}
+
+
+.navigation ul li a {font-family: 'Source Sans Pro', sans-serif;font-weight: 600;font-size: 20px;color: #fff;text-decoration: none;}
+
+/* footer section styling starts here */
+footer {background: #101010;padding: 40px 0 8px 0;}
+footer h6 {font-family: 'Source Sans Pro', sans-serif;color: #fff;padding: 30px 0 40px 0;}
+footer hr {background: #2d323b;height: 2px;}
+footer ul {display: flex;justify-content: space-evenly;padding: 18px 0;}
+footer ul li {list-style: none;padding-right: 72px;}
+footer ul li a {font-family: 'Source Sans Pro', sans-serif;font-style: italic;font-size: 16px;text-decoration: none;color: #707070;font-weight: 400;}
+footer ul li a:hover {color: #fff;}
+footer p {font-family: 'Source Sans Pro', sans-serif;font-style: italic;font-size: 16px;color: #707070;font-weight: 400;text-align: left;text-transform: uppercase;}
+.last li {padding-right: 0;}
+
+
+  /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////Media Query For Responsive//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (min-width: 1500px) and (max-width: 1650px ) {
+   
+    nav {padding: 0 15px;}    
+    .center-nav {padding: 30px 74px;}
+}
+
+
+@media (min-width: 1300px) and (max-width: 1499px ) {
+   
+    .center-nav {padding: 30px 0 0 0; }
+    .navigation ul .circle::before {
+        left: -56px;
+    }
+    .navigation ul .circle i {
+        left: -40px;
+    }
+    .navigation ul li a {
+        font-size: 18px;
+    }
+    .about-us-ul .green, .red, .blue {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        margin-right: 0px;
+        text-align: center;
+        color: #fff;
+    }
+
+
+
+}
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1299px ) {
+    .center-nav {padding: 30px 0 0 0;}
+    .center-nav li {padding: 0 6px;}
+    .right-nav li a { padding: 14px 8px;font-size: 18px;}
+
+    .navigation ul .circle::before {
+        left: -36px;
+    }
+    .navigation ul .circle i {
+        left: -21px;
+    }
+    .navigation ul li a {
+        font-size: 18px;
+    }
+
+    .about-us-ul .green, .red, .blue {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        margin-right: 0px;
+        text-align: center;
+        color: #fff;
+    }
+    .about-us-ul .red {
+        padding: 38px 5px 0 5px;
+        font-size: 17px;
+    }
+    .about-us-ul .green {
+        padding: 38px 5px 0 5px;
+        font-size: 17px;
+    }
+    .about-us-ul .blue {
+        padding: 38px 5px 0 5px;
+        font-size: 17px;
+    }
+   
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navigation ul .circle::before {
+        left: 7px;
+    }
+    .navigation ul .circle i {
+        left: 23px;
+    }
+    .navigation ul li a {
+        font-size: 16px;
+    }
+    .navigation .text {
+        margin: 0 0 0 auto;
+    }
+
+
+
+
+
+    nav {
+        padding: 0;
+    }
+    .upper-discription p {
+        font-size: 12px;
+    }
+    .center-nav {
+        padding: 30px 0 0 0;
+    }
+    .center-nav li {
+        padding: 0 6px;
+    }
+    .right-nav li a {
+        padding: 14px 8px;
+        font-size: 16px;
+    }
+    .center-nav li a {
+        font-size: 16px;
+    }
+    .banner {
+        height: 570px;
+    }
+    .banner h1 {
+        padding: 69px 20px 0 0;
+        font-size: 60px;
+    }
+
+    .about-us .circle-img::before {
+        display: none;
+    }
+    .about-us .circle-img img {
+        width: 100%;
+    }
+    .about-us .row {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .abpr {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us {
+        padding: 50px 0 30px 0;
+    }
+    .about-us p {
+        padding-right: 0px;
+    }
+    .about-us .circle-img::before {
+        display: none;
+    }
+    .about-us h6 {
+        padding-top: 16px;
+        padding-right: 0;
+        font-size: 16px;
+    }
+    .business h2 {
+        font-size: 45px;
+    }
+
+    .services {
+        padding: 50px 0;
+    }
+    .card {
+        width: 285px;
+        height: 465px;
+    }
+    .services .card p {
+        font-size: 16px;
+    }
+
+    div#v-pills-tab {
+        width: 100%;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 16px;
+    }
+    .nav-link {
+        font-size: 16px;
+    }
+    .reports h3 {
+        font-size: 32px;
+    }
+    
+    .mike-sacher .schr img {
+        width: 100%;
+    }
+    .mike-sacher p {
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .navigation ul li {
+        padding: 65px 0;
+    }
+    /* .navigation ul .circle:before {
+        left: -22px;
+    } */
+    .navigation ul li i {
+        left: -6px;
+    }
+
+    footer img {
+        width: 20%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+    footer h6 {
+        text-align: center;
+    }
+    footer ul li {
+        padding-right: 48px;
+    }
+    
+    footer p {
+        font-size: 14px;
+        text-align: center;
+    }
+  
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navigation {
+        height: 100%;
+    }
+
+   
+    .navigation ul .circle::before {
+        left: 0;
+        bottom: 0;
+    }
+    .navigation ul .circle i {
+        left: 16px;
+        top: 26px;
+    }
+    .navigation ul li a {
+        font-size: 16px;
+    }
+    .navigation .text {
+        margin: 0 0 0 auto;
+        width: 65%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 0 0 auto;
+        bottom: 0;
+        top: 22px;
+    }
+
+
+
+    nav {
+        padding: 0;
+    }
+    .upper-discription p {
+        font-size: 12px;
+    }
+    .center-nav {
+        padding: 30px 0 0 0;
+    }
+    .center-nav li {
+        padding: 0 6px;
+        border-bottom: 1px solid #c0af02;
+        width: 100%;
+    }
+    .right-nav li a {
+        padding: 14px 8px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 238px;
+    }
+    .center-nav li a {
+        font-size: 16px;
+    }
+    .banner {
+        height: 485px;
+    }
+    .banner h1 {
+        padding: 69px 20px 0 0;
+        font-size: 60px;
+    }
+
+    .about-us .circle-img::before {
+        display: none;
+    }
+
+    .about-us .circle-img img {
+        display: none;
+    }
+    .about-us .row {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .abpr {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us {
+        padding: 50px 0 30px 0;
+    }
+    .about-us p {
+        padding-right: 0px;
+        text-align: center;
+    }
+    .about-us h6 {
+        padding-top: 16px;
+        padding-right: 0;
+        font-size: 16px;
+    }
+    .business {
+        height: 100%;
+        background-color: #267cb1;
+        background-image: none;
+    }
+    .business .bspr {
+        display: none;
+    }
+    .business-slider {
+        width: 100%;
+    }
+    .business h2 {
+        font-size: 45px;
+    }
+
+    .services {
+        padding: 50px 0 0 0;
+    }
+    .services h3 {
+        padding-bottom: 30px;
+    }
+    .card {
+        width: 285px;
+        height: 465px;
+        margin-bottom: 20px;
+    }
+    .services .card p {
+        font-size: 16px;
+    }
+
+    div#v-pills-tab {
+        width: 100%;
+        height: 100%;
+        margin-top: 39px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 14px;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+    .reports h3 {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    
+    .mike-sacher .schr img {
+        width: 100%;
+        display: none;
+    }
+    .mike-sacher p {
+        line-height: 24px;
+        font-size: 16px;
+        text-align: center;
+        padding-right: 0;
+    }
+    .mike-sacher h3, h5, h6, a {
+        text-align: center;
+    }
+    .mike-sacher a {
+        color: #267cb1;
+        text-decoration: none;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .navigation ul li {
+        padding: 65px 0;
+    }
+    .navigation ul .circle:before {
+        left: 4px;
+        top: 17px;
+    }
+    .navigation ul li i {
+        left: 20px;
+        font-size: 30px;
+        bottom: 0;
+        z-index: 5;
+        top: 49px;
+    }
+    .navigation ul .space-1 a {
+        margin-left: 28px;
+    }
+    .navigation ul .space-2 a {
+        margin-left: 20px;
+    }
+    .navigation ul li a {
+        font-size: 14px;
+        position: absolute;
+        left: -137px;
+        top: 129px;
+    }
+    .navigation ul li a span {
+        display: none;
+    } */
+
+    footer img {
+        width: 20%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+    footer h6 {
+        text-align: center;
+    }
+    footer ul li {
+        padding-right: 20px;
+    }
+    
+    footer p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and (max-width: 767px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        padding: 0;
+    }
+    .navbar-brand img {
+        width: 80%;
+    }
+    .upper-discription p {
+        font-size: 10px;
+    }
+    .center-nav {
+        padding: 30px 0 0 0;
+    }
+    .center-nav li {
+        padding: 0 6px;
+        border-bottom: 1px solid #c0af02;
+        width: 100%;
+    }
+    .right-nav li a {
+        padding: 14px 8px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 238px;
+    }
+    .center-nav li a {
+        font-size: 16px;
+    }
+    .banner {
+        height: 377px;
+    }
+    .banner h1 {
+    padding: 47px 0px 10px 0;
+    font-size: 34px;
+    text-align: center;
+    }
+    .banner p {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .banner a {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .about-us-ul {
+        flex-direction: column;
+    }
+    .about-us .circle-img::before {
+        display: none;
+    }
+    .about-us .circle-img img {
+        width: 100%;
+    }
+    .about-us .row {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .abpr {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us {
+        padding: 50px 0 30px 0;
+    }
+    .about-us p {
+        padding-right: 0px;
+        text-align: center;
+    }
+    .about-us h6 {
+        padding-top: 16px;
+        padding-right: 0;
+        font-size: 16px;
+    }
+    .business {
+        height: 100%;
+        background-color: #267cb1;
+        background-image: none;
+    }
+    .business .bspr {
+        display: none;
+    }
+    .business-slider {
+        width: 100%;
+        height: 100%;
+    }
+    .business h2 {
+        font-size: 45px;
+    }
+
+    .services {
+        padding: 50px 0 0 0;
+    }
+    .services h3 {
+        padding-bottom: 30px;
+    }
+    .card {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .services .card p {
+        font-size: 16px;
+    }
+
+    div#v-pills-tab {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 14px;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .reports {
+        height: 450px;
+        background-size: cover;
+        background-color: #267cb1;
+        background-image: none;
+    }
+    .reports h3 {
+        font-size: 26px;
+        padding-left: 0;
+        text-align: center;
+        margin-top: 60px;
+        padding-bottom: 28px;
+    }
+    .reports h4 {
+        padding: 15px 0;
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+    .reports .main-slider {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .sld {
+        padding: 55px 26px;
+        text-align: center;
+    }
+    
+    .mike-sacher {
+        padding: 15px 0;
+    }
+    .mike-sacher .schr img {
+        width: 100%;
+        display: none;
+    }
+    .mike-sacher p {
+        line-height: 24px;
+        font-size: 16px;
+        text-align: center;
+        padding-right: 0;
+    }
+    .mike-sacher h3, h5, h6, a {
+        text-align: center;
+    }
+    .mike-sacher a {
+        color: #267cb1;
+        text-decoration: none;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .navigation {
+        height: 100%;
+    }
+
+    .navigation ul .circle::before {
+        left: 0;
+        bottom: 0;
+    }
+    .navigation ul .circle i {
+        left: 15px;
+        top: 26px;
+    }
+    .navigation ul li a {
+        font-size: 16px;
+    }
+    .navigation .text {
+        margin: 0 0 0 auto;
+        width: 65%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 38px;
+    }
+
+    .navigation ul {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 0;
+        flex-direction: column;
+    }
+
+
+
+
+
+    /* .navigation ul li {
+        padding: 65px 0;
+    }
+    .navigation ul .circle:before {
+        left: -33px;
+        top: 35px;
+    } */
+    /* .navigation ul {
+        justify-content: space-evenly;
+    } */
+    /* .navigation ul li i {
+        left: -18px;
+        font-size: 30px;
+        bottom: 0;
+        z-index: 5;
+        top: 49px;
+    }
+    .navigation ul .space-1 a {
+        margin-left: 28px;
+    }
+    .navigation ul .space-2 a {
+        margin-left: 20px;
+    } */
+    /* .navigation ul li a {
+        font-size: 14px;
+        position: absolute;
+        left: -137px;
+        top: 129px;
+    }
+    .navigation ul li a span {
+        display: none;
+    } */
+
+    footer img {
+        width: 30%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+    footer h6 {
+        text-align: center;
+        padding: 23px 0 15px 0;
+    }
+    .footer-div {
+        flex-direction: column;
+    }
+    footer ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    footer ul li {
+        padding-right: 20px;
+    }
+    
+    footer p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 16px;
+    }
+    nav {
+        padding: 0;
+    }
+    .navbar-brand img {
+        width: 65%;
+    }
+    .upper-discription p {
+        font-size: 10px;
+    }
+    .center-nav {
+        padding: 30px 0 0 0;
+    }
+    .center-nav li {
+        padding: 0 6px;
+        border-bottom: 1px solid #c0af02;
+        width: 100%;
+    }
+    .right-nav li a {
+        padding: 14px 8px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 238px;
+    }
+    .center-nav li a {
+        font-size: 16px;
+    }
+    .banner {
+        height: 377px;
+    }
+    .banner h1 {
+    padding: 30px 0px 10px 0;
+    font-size: 26px;
+    text-align: center;
+    }
+    .banner p {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .banner a {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .about-us-ul {
+        flex-direction: column;
+    }
+    .about-us .circle-img::before {
+        display: none;
+    }
+    .about-us .circle-img img {
+        width: 100%;
+    }
+    .about-us .row {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .abpr {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us {
+        padding: 50px 0 30px 0;
+    }
+    .about-us p {
+        padding-right: 0px;
+        text-align: center;
+    }
+    .about-us h6 {
+        padding-top: 16px;
+        padding-right: 0;
+        font-size: 16px;
+    }
+    .business {
+        height: 100%;
+        background-color: #267cb1;
+        background-image: none;
+    }
+    .business h4 {
+        line-height: 34px;
+    }
+    .business .bspr {
+        display: none;
+    }
+    .business-slider {
+        width: 100%;
+        height: 100%;
+    }
+    .business h2 {
+        font-size: 45px;
+    }
+
+    .services {
+        padding: 50px 0 0 0;
+    }
+    .services h3 {
+        padding-bottom: 30px;
+    }
+    .card {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .services .card p {
+        font-size: 16px;
+        padding-top: 25px;
+    }
+    .services .card a {
+        padding-top: 28px;
+    }
+
+    div#v-pills-tab {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        font-size: 14px;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .reports {
+        height: 450px;
+        background-size: cover;
+        background-color: #267cb1;
+        background-image: none;
+    }
+    .reports h3 {
+        font-size: 24px;
+        padding-left: 0;
+        text-align: center;
+        margin-top: 60px;
+        padding-bottom: 28px;
+    }
+    .reports h4 {
+        padding: 15px 0;
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+    .reports .main-slider {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .sld {
+        padding: 55px 26px;
+        text-align: center;
+    }
+    
+    .mike-sacher {
+        padding: 15px 0;
+    }
+    .mike-sacher .schr img {
+        width: 100%;
+        display: none;
+    }
+    .mike-sacher p {
+        line-height: 24px;
+        font-size: 16px;
+        text-align: center;
+        padding-right: 0;
+    }
+    .mike-sacher h3, h5, h6, a {
+        text-align: center;
+    }
+    .mike-sacher a {
+        color: #267cb1;
+        text-decoration: none;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .navigation {
+        height: 100%;
+    }
+
+    .navigation ul .circle::before {
+        left: 0;
+        bottom: 0;
+    }
+    .navigation ul .circle i {
+        left: 15px;
+        top: 26px;
+    }
+    .navigation ul li a {
+        font-size: 16px;
+    }
+    .navigation .text {
+        margin: 0 0 0 auto;
+        width: 65%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 38px;
+    }
+
+    .navigation ul {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 0;
+        flex-direction: column;
+    }
+
+
+    /* .navigation ul li {
+        padding: 65px 0;
+    }
+    .navigation ul .circle:before {
+        left: -20px;
+        top: 35px;
+    } */
+    /* .navigation ul li i {
+        left: -4px;
+        font-size: 30px;
+        bottom: 0;
+        z-index: 5;
+        top: 49px;
+    }
+    .navigation ul .space-1 a {
+        margin-left: 35px;
+    }
+    .navigation ul .space-2 a {
+        margin-left: 20px;
+    }
+    .navigation ul li a {
+        font-size: 14px;
+        position: absolute;
+        left: -101px;
+        top: 129px;
+        margin-left: 32px;
+    }
+    .navigation ul li a span {
+        display: none;
+    } */
+
+    footer img {
+        width: 30%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+    footer h6 {
+        text-align: center;
+        padding: 23px 0 15px 0;
+        font-size: 16px;
+    }
+   
+    footer ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    footer ul li {
+        padding-right: 20px;
+    }
+    footer ul li a {
+        font-size: 14px;
+    }
+    .footer-div {
+        flex-direction: column;
+    }
+    
+    footer p {
+        font-size: 12px;
+        text-align: center;
+    }
+  
+   
+
+}
